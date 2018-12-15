@@ -2,10 +2,10 @@ import tkinter as tk
 from tkinter import ttk
 # include components
 # from frames.menu import *
-from frames.toolbar import *
-from frames.sidebar import *
-from frames.mainframe import *
-from frames.buttombar import ButtomBar
+from toolbar import *
+from sidebar import *
+from mainframe import *
+from buttombar import ButtomBar
 
 import win32gui, win32con
 The_program_to_hide = win32gui.GetForegroundWindow()
